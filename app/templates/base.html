@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{% if title %}
+	<title>{{title}} - Welcome haoSev's home</title>
+	{% else %}
+	<title>Welcome back haoSev</title>
+	{% endif %}
+</head>
+<body>
+	<h1>This is my place!</h1>
+	<hr>
+	
+	{% block content %}{% endblock %}	
+	
+</body>
+</html>
